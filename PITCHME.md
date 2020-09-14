@@ -12,8 +12,7 @@ Coordinate Systems in GIS
 - Projection Selection: Guiding Principles
 - Working with Coordinate Systems in ArcGIS Projection
 ---
-### Coordinate Systems, Datums, and Projections
-##### A Review
+#### Coordinate Systems, Datums, and Projections: A Review
 Coordinate systems define how locations are referenced by their *x*, *y*, and sometimes *z* values in a GIS dataset
 
 ![coordsys1](images/coordsys1.jpg)
