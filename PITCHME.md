@@ -138,7 +138,7 @@ If the spatial reference is missing (check the layer properties), try to determi
 +++
 #### Defining Projections
 
-![Define Projection](image/deinfe_proj.jpg)
+![Define Projection](images/define_proj.jpg)
 +++
 #### Reprojecting Data
 The **Project** tool will reproject a dataset from one projection to another. It is **not the same as Define Projection**. 
