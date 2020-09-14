@@ -86,8 +86,16 @@ Map projections project Earth's surface onto a shape, like a **cylinder**, **con
 +++
 ![Why All World Maps Are Wrong](https://www.youtube.com/embed/kIID5FDi2JQ)
 +++
+#### Projection Parameters
+Map projections are defined by their type, and several parameters specific to the region of interest...
 
-
+- Central Meridian: Origin of *x* coordinates/longitude
+- Latitude of Origin: Origin of *y* cooridantes/parallels
+- Standard Parallels: Latitudes where projection intersects spheroid
+- False easting/northing: Constants added to coordinates to keep all values positive. 
++++
+![
+	
 
 
 
