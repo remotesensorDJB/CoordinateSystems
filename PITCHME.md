@@ -10,7 +10,7 @@ Coordinate Systems in GIS
 - Review of Coordinate Systems, Datums, and Projections
 - Projections: Distortion and Compromise
 - Projection Selection: Guiding Principles
-- Working with Coordinate Systems in ArcGIS Projection
+- Working with Coordinate Systems in ArcGIS Pro
 ---
 #### Coordinate Systems, Datums, and Projections: A Review
 Coordinate systems define how locations are referenced by their *x*, *y*, and sometimes *z* values in a GIS dataset
@@ -95,7 +95,7 @@ Map projections are defined by their type, and several parameters specific to th
 - False easting/northing: Constants added to coordinates to keep all values positive. 
 +++
 #### Projection Selection
-Selecting a projection depends on *map purpose*, as well as *map scale*. For small scale maps, distortion is *inevitable*. 
+Selecting a projection/coordinate system depends on *map purpose*, as well as *map scale*. For small scale maps, distortion is *inevitable*. 
 
 - Navigational maps: Cylindrical projection to preserve direction and shape
 - Continental maps: 
@@ -112,11 +112,40 @@ Univeral Tranverse Mercator (UTM) defines 60 zones, both North and South, for th
 
 ![UTM](images/utm.jpg)
 +++
-#### State Plane
+#### State Plane Coordinate System
 In the United States, the State Plane system offers an alternative to UTM. Very large scale, high accuracy maps often use State Plane. As long as your data fit within a single zone, very low distortion results. 
 
 ![State Plane](images/stateplane.jpg)
 +++
+#### State Plane Example
+##### LOJIC Data
+<iframe src="https://www.lojic.org/data/projection-information" width="640" height="480"></iframe>
++++
+#### Coordinate Systems in GIS
+One of the most common issues in GIS is data that do not align properly. Typically this is caused by one of several problems. 
+
+1) The spatial reference is incorrect or **undefined** 
+2) The GSC or datum is incorrectly identified **NAD27 or WGS84??**
+3) The data have been improperly entered/coded **data quality issues**
+
+https://support.esri.com/en/technical-article/000005060 
++++
+#### Defining Projections
+If the spatial reference is missing (check the layer properties), try to determine the correct projection.
+- Look to the source! Is there metadata?
+- Examine the data in the map. Can the units tell you anything? 
+- Trial and error! Last resort, but you might get lucky!
++++
+#### Defining Projections
+
+![Define Projection](image/deinfe_proj.jpg)
++++
+#### Reprojecting Data
+The **Project** tool will reproject a dataset from one projection to another. It is **not the same as Define Projection**. 
+
+You may use the Project tool to reproject a number of datasets to the same projection to inlclude in a single database. 
+
+
 
 
 
