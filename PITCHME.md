@@ -34,7 +34,7 @@ Coordinate Systems in GIS can be either **unprojected/geographic**, or **project
 	- Units: Degrees of Lat/Long |
 - Projected |
     - Mathematical Transformation from sphere @fa[arrow-right] flat surface/plane |
-	- 3 dimensional surface @fa[arrow-right] 2D surface
+	- 3 dimensional surface @fa[arrow-right] 2D surface \
 +++
 Projected vs Unprojected...
 
