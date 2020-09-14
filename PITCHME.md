@@ -119,7 +119,7 @@ In the United States, the State Plane system offers an alternative to UTM. Very 
 +++
 #### State Plane Example
 ##### LOJIC Data
-<iframe src="https://www.lojic.org/data/projection-information" width="640" height="480"></iframe>
+https://www.lojic.org/data/projection-information
 +++
 #### Coordinate Systems in GIS
 One of the most common issues in GIS is data that do not align properly. Typically this is caused by one of several problems. 
