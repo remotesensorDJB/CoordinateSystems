@@ -124,9 +124,9 @@ https://www.lojic.org/data/projection-information
 #### Coordinate Systems in GIS
 One of the most common issues in GIS is data that do not align properly. Typically this is caused by one of several problems. 
 
-1) The spatial reference is incorrect or **undefined** 
-2) The GSC or datum is incorrectly identified **NAD27 or WGS84??**
-3) The data have been improperly entered/coded **data quality issues**
+1. The spatial reference is incorrect or **undefined** 
+2. The GSC or datum is incorrectly identified **NAD27 or WGS84??**
+3. The data have been improperly entered/coded **data quality issues**
 
 https://support.esri.com/en/technical-article/000005060 
 +++
