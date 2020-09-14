@@ -25,7 +25,7 @@ The specific *x*, *y* values and their units are known as the **coordinate space
 ![arbitrary](images/coordspace.jpg)
 ![std coords](images/std_coords.jpg)
 +++
-### Coordinate Systems: Two Types
+#### Coordinate Systems: Two Types
 
 Coordinate Systems in GIS can be either **unprojected/geographic**, or **projected**...
 
@@ -40,3 +40,28 @@ Projected vs Unprojected...
 
 ![proj/unproj](images/proj_unproj.jpg)
 +++
+#### Geographic Coordinate Systems
+A **GCS** uses latitude and longitude to store feature locations in *Decimal Degrees*. Location data in *Degrees, Minutes, and Seconds* must be converted, keeping	 at least 5-6 decimal places. 
+	
+![geog coord](images/geog_coord.jpg)	
++++
+#### Datums
+
+A **datum** defines a **spheroid** that is aligned with Earth's shape (the **geoid**). A **local datum** prioritizes best fit for a particular location, while a **geocentric datum** seeks the best fit for all locations. 
+
+![datum](images/datum.jpg)
++++
+#### Datums for North America
+- Several datums may be used for spatial data in North America...
+    - NAD27: North American Datum 1927 - Clarke 1866 spheroid
+    - NAD83: North American Datum 1983 - GRS80 spheroid. **Current most popular/default datum**
+    - WGS84: World Geodetic Survey 1984 - Geocentric datum. Default for many GPS units.
+
+More: https://desktop.arcgis.com/en/arcmap/latest/map/projections/datums.htm
++++
+#### Projections
+**Map projections** are complex mathematical models that translate the Earth's curved surface to the flat 2D surface of a paper map. 
+
+Each projection is based on a **datum** and **GCS** that define the shape of the Earth. Different datums/GCS's result in 
+
+
