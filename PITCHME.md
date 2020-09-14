@@ -22,7 +22,8 @@ Coordinate systems define how locations are referenced by their *x*, *y*, and so
 
 The specific *x*, *y* values and their units are known as the **coordinate space**. Could be *arbitrary*, and locally defined, or standardized for cross referencing with other data. 
 
-![arbitrary](images/coordspace.jpg)	![std coords](images/std_coords.jpg)
+![arbitrary](images/coordspace.jpg)
+![std coords](images/std_coords.jpg)
 +++
 ### Coordinate Systems: Two Types
 
