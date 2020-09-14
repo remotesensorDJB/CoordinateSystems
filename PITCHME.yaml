@@ -1,0 +1,5 @@
+theme : white
+theme-override : PITCHME.css
+background : images/background-world-map-1
+transition : slide
+logo : images/ulcgis.png
