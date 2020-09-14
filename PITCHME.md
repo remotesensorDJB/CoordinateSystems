@@ -27,7 +27,7 @@ The specific *x*, *y* values and their units are known as the **coordinate space
 +++
 ### Coordinate Systems: Two Types
 
-Coordiante Systems in GIS can be either **unprojected/geographic**, or **projected**...
+Coordinate Systems in GIS can be either **unprojected/geographic**, or **projected**...
 
 - Unprojected |
     - Based on spherical coordinates |
