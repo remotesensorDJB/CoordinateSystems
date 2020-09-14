@@ -95,7 +95,7 @@ Map projections are defined by their type, and several parameters specific to th
 - False easting/northing: Constants added to coordinates to keep all values positive. 
 +++
 #### Projection Selection
-Selecting a projection depends on *map purpose*, as well as *map scale*. For small scale maps, distortion is *inevitable*. Choose a projection based on the maps purpose:
+Selecting a projection depends on *map purpose*, as well as *map scale*. For small scale maps, distortion is *inevitable*. 
 
 - Navigational maps: Cylindrical projection to preserve direction and shape
 - Continental maps: 
