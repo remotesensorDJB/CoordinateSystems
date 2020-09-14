@@ -62,6 +62,32 @@ More: https://desktop.arcgis.com/en/arcmap/latest/map/projections/datums.htm
 #### Projections
 **Map projections** are complex mathematical models that translate the Earth's curved surface to the flat 2D surface of a paper map. 
 
-Each projection is based on a **datum** and **GCS** that define the shape of the Earth. Different datums/GCS's result in 
+Each projection is based on a **datum** and **GCS** that define the shape of the Earth. Different datums/GCSes could result in coordinate shifts
++++
+#### Types of projections
+Map projections project Earth's surface onto a shape, like a **cylinder**, **cone**, or **plane**. Each shape yields different properties. 
+
+![proj type](images/proj_types.jpg)
++++
+#### Tradeoffs...
+*All* map projections confer some distortion of one or more of the following properties...
+
+- Direction
+- Distance
+- Shape
+- Area
++++
+#### Tradeoffs
+*Some* projections preserve certain properties at the expense of others...
+
+- Cylindrical: usually preserve **direction** and **shape** (navigational maps)
+- Conic: usually preserve **area** and **distance** (small scale maps)
+- Planar: usually preserve **area** and **distance**
++++
+![Why All World Maps Are Wrong](https://www.youtube.com/embed/kIID5FDi2JQ)
++++
+
+
+
 
 
