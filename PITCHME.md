@@ -94,8 +94,32 @@ Map projections are defined by their type, and several parameters specific to th
 - Standard Parallels: Latitudes where projection intersects spheroid
 - False easting/northing: Constants added to coordinates to keep all values positive. 
 +++
-![
-	
+#### Projection Selection
+Selecting a projection depends on *map purpose*, as well as *map scale*.
+
+For small scale maps, distortion is *inevitable*. Choose a projection based on the maps purpose:
+
+- Navigational maps: Cylindrical projection to preserve direction and shape
+- Continental maps: 
+    - If distance is important - conic or azimuthal *equidistant* projection
+    - If area more important - conic or azimuthal *equal area* projection
+- General mapping: conformal or compromise projection
++++
+#### Projection Selection
+
+For large scale maps, distortion is less of a concern. Choose a regionally appropriate projection, like a **UTM** or **State Plane** projection. 
++++
+#### UTM Projections
+Univeral Tranverse Mercator (UTM) defines 60 zones, both North and South, for the entire globe. If working in a single UTM zone, all four map properties are preserved adequately. 
+
+![UTM](images/utm.jpg)
++++
+#### State Plane
+In the United States, the State Plane system offers an alternative to UTM. Very large scale, high accuracy maps often use State Plane. As long as your data fit within a single zone, very low distortion results. 
+
+![State Plane](images/stateplane.jpg)
++++
+
 
 
 
