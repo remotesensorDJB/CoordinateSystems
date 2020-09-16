@@ -91,7 +91,7 @@ Map projections project Earth's surface onto a shape, like a **cylinder**, **con
 Impact of Mercator projection can be visualized at: https://thetruesize.com 
 
 Try searching Greenland or Antarctica, then drag the polygon to the Equator to see its true size. 
-
++++
 #### Projection Parameters
 Map projections are defined by their type, and several parameters specific to the region of interest...
 
