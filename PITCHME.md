@@ -86,6 +86,10 @@ Map projections project Earth's surface onto a shape, like a **cylinder**, **con
 +++
 ![Why All World Maps Are Wrong](https://www.youtube.com/embed/kIID5FDi2JQ)
 +++
+#### Projection Properties
+
+![Compare Map Projections](http://metrocosm.com/compare-map-projections.html)
++++
 #### The True Size Of...
 
 Impact of Mercator projection can be visualized at: https://thetruesize.com 
