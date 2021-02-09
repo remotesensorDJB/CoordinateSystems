@@ -88,7 +88,7 @@ Map projections project Earth's surface onto a shape, like a **cylinder**, **con
 +++
 #### Projection Properties
 
-![Compare Map Projections](http://metrocosm.com/compare-map-projections.html)
+[Compare Map Projections](http://metrocosm.com/compare-map-projections.html)
 +++
 #### The True Size Of...
 
